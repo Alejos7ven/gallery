@@ -16,7 +16,7 @@
         <div class="row carrete-header">
             <div class="col-md-8 offset-md-1">
                 <h2>Álbum</h2>
-                <p>Este es un album de prueba</p>
+                <p>Este es un álbum de prueba</p>
             </div>
             <div class="container">
                 <div class="col-md-10 offset-md-1 col-sm-12">
