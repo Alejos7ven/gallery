@@ -1,8 +1,7 @@
 <?php
     include_once("model/datos.php");
     try { 
-        $conexion=new PDO('mysql:host=localhost; dbname=gallery', 'root', '');//conectando con PDO
-        //$conexion=new PDO('mysql:host=sql201.byetcluster.com; dbname=b7_26152903_gallery', 'b7_26152903', 'josedemarz0M');
+        $conexion=new PDO('mysql:host=localhost; dbname=gallery', 'root', '');//conectando con PDO 
 		$conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $conexion->exec('SET CHARACTER SET utf8');
         $gestor=new Manager_i($conexion);
